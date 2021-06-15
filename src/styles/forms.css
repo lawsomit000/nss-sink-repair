@@ -1,0 +1,30 @@
+.class {
+    display: block;
+    width: 100%;
+    padding: 0px, 10px, 0px, 10px;
+}
+
+.input {
+    display: block;
+    width: 80%;
+
+}
+
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+.field {
+    align-content: center;
+    padding: 10px;
+
+}
+.button {
+    background-color: #464FA0;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
