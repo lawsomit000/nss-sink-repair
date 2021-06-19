@@ -14,6 +14,7 @@ const render = () => {
 
 render()
 
+//listens for statechanged from data access
 mainContainer.addEventListener(
     "stateChanged",
     customEvent => {

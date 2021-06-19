@@ -2,6 +2,8 @@
 const applicationState = { 
 }
 
+const mainContainer = document.querySelector("#container")
+
 const API = "http://localhost:8088"
 
 export const fetchRequests = () => {
@@ -26,8 +28,8 @@ export const sendRequest = (userServiceRequest) => {
             "Content-Type": "application/json"
         },
         body: JSON.stringify(userServiceRequest)
+        //json.stringify converts the JS Object into JSON
     }
-
 
     return fetch(`${API}/requests`, fetchOptions)
         .then(response => response.json())
