@@ -28,3 +28,31 @@
     padding: 10px;
     margin: 10px;
 }
+.allRequest {
+    border: dotted lightblue;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.request__delete {
+    background-color: blueviolet;
+    color: white;
+}
+.listItem { 
+    background: white; 
+    /* list-style-image: url("https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/hammer-and-wrench_1f6e0-fe0f.png"); */
+    list-style: none;
+    height: 30px;
+    width: 500px;
+    margin: 5px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.listItem:nth-child(odd){ 
+    background: lightgrey; 
+}
